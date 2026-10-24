@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+
+
+body {
+    background-color: rgb(25, 11, 44);
+    font-family: "Shadows Into Light", cursive;
+}
+h1, h2, h3{
+
+    font-family: "Permanent Marker", cursive;
+}
+
+main {
+    margin: 0 auto 0 auto;
+    width: 1200px;
+    max-width: 95%;
+    background-color: rgb(25, 11, 44);
+    color: yellow;
+        
+}
+footer, header {
+background-color: black;
+color: rgb(236, 223, 81);
+padding: 50px;
+text-align: center;
+}
+nav {
+border-top:3px solid rgb(236,223,81) ;
+    border-bottom: 3px solid rgb(236,223,81);
+}
+nav ul {
+    list-style: none;
+}
+
+
+nav li{
+display: inline;
+
+margin: 20px;
+}
+
+nav a{
+    text-decoration: none;
+   color: rgb(236, 223, 81);
+   padding: 10px;
+background-color: rgb(49, 6, 82); 
+border-bottom: 1px solid rgb(236, 223, 81);
+border-right: 1px solid rgb(236, 223, 81);
+
+
+}
+
+nav a:hover{
+color:rgb(49, 6, 82);;
+background-color: rgb(236, 223, 81);
+border-bottom: 1px solid rgb(236, 223, 81);
+border-right: 1px solid rgb(236, 223, 81);
+border-top: 4px solid black;
+border-left: 4px solid black;
+
+}
+
+section {
+    display: -ms-flexbox;
+}
+
+.centrado {
+    display: block;
+    margin: 0 auto0 auto;
+}
+
+.adapatable{
+        display: block;
+        width: 100%;
+
+}
